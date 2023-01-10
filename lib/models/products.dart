@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class Product {
-  final String images, title, description;
+  final String image, title, description;
   final int price, size, id;
   final Color color;
 
   Product(
-      {required this.images,
+      {required this.image,
       required this.title,
       required this.description,
       required this.price,
@@ -17,51 +17,51 @@ class Product {
 
 List<Product> products = [
   Product(
-      images: "assets/images/bag1.png",
-      title: "Office Code",
+      image: "assets/images/bag1.png",
+      title: "LV",
       description: 'dummyText',
-      price: 234,
+      price: 327,
       size: 12,
       id: 1,
-      color: Color(0xFF3D82AE)),
+      color: Color(0xFFDEB887)),
   Product(
-      images: "assets/images/bag2.png",
-      title: "Belt Bag",
+      image: "assets/images/bag2.png",
+      title: "Casual",
       description: 'dummyText',
-      price: 234,
+      price: 276,
       size: 8,
       id: 2,
       color: Color(0xFFD3A984)),
   Product(
-      images: "assets/images/bag3.png",
-      title: "Office Code",
-      description: 'dummyText',
-      price: 234,
-      size: 10,
-      id: 3,
-      color: Color(0xFF989493)),
-  Product(
-      images: "assets/images/bag4.png",
+      image: "assets/images/bag3.png",
       title: "Old Fashion",
       description: 'dummyText',
-      price: 234,
+      price: 214,
+      size: 10,
+      id: 3,
+      color: Color(0xFFA97373)),
+  Product(
+      image: "assets/images/bag4.png",
+      title: "Old Fashion",
+      description: 'dummyText',
+      price: 206,
       size: 11,
       id: 4,
-      color: Color(0xFFE6B398)),
+      color: Color(0xFFDEB887)),
   Product(
-      images: "assets/images/bag5.png",
-      title: "Office Code",
+      image: "assets/images/bag5.png",
+      title: "Teenage",
       description: 'dummyText',
-      price: 234,
+      price: 289,
       size: 12,
       id: 5,
-      color: Color(0xFFFB7883)),
+      color: Color(0xFFC39797)),
   Product(
-      images: "assets/images/bag6.png",
+      image: "assets/images/bag6.png",
       title: "Office Code",
       description: 'dummyText',
-      price: 234,
+      price: 495,
       size: 12,
       id: 6,
-      color: Color(0xFFAEAEAE)),
+      color: Color(0xFFCBBEB5)),
 ];
